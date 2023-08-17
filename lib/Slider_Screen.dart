@@ -12,7 +12,6 @@ class slider extends StatefulWidget {
 class sliderState extends State<slider> {
   int _value = 6;
   double _value0 = 20;
-
   double _value1 = 20;
   String _status = 'idle';
   Color _statusColor = Colors.amber;

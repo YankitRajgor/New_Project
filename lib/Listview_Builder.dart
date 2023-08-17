@@ -13,7 +13,7 @@ class _Listview_BuilderState extends State<Listview_Builder> {
     Colors.red,
     Colors.blueGrey,
     Colors.green,
-    Colors.blue
+    Colors.blue,
   ];
   final List<dynamic> Imagelist = [
     "assets/download.jpg",
@@ -37,7 +37,7 @@ class _Listview_BuilderState extends State<Listview_Builder> {
                   itemBuilder: (BuildContext context, int index) {
                     return Container(
                       height: 100,
-                      color: Colors.yellow[colorCodes[index]],
+                      color: colorCodes[index],
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
