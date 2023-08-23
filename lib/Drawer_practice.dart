@@ -18,7 +18,7 @@ class _Drawer_PracticeState extends State<Drawer_Practice> {
         ),
         leading: IconButton(
           onPressed: () {
-            scaffoldKey.currentState?.openDrawer();
+            scaffoldKey.currentState?.openEndDrawer();
           },
           icon: Icon(Icons.account_box_outlined),
         ),
@@ -32,7 +32,7 @@ class _Drawer_PracticeState extends State<Drawer_Practice> {
           ),
         ],
       ),
-      drawer: Drawer(
+      endDrawer: Drawer(
         child: ListView(
           children: [
             UserAccountsDrawerHeader(

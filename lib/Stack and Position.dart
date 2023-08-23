@@ -8,6 +8,8 @@ class Stack_Position extends StatefulWidget {
 }
 
 class _Stack_PositionState extends State<Stack_Position> {
+  final List<int> numbers = List.generate(100, (index) => index + 1);
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(

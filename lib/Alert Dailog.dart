@@ -62,7 +62,6 @@ class _Alert_Dailoug_ScreenState extends State<Alert_Dailoug_Screen> {
                 ),
               ),
             ),
-
           ],
         ),
       ),

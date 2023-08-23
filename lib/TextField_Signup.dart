@@ -109,6 +109,7 @@ class _TextField_practiceState extends State<TextField_practice> {
                         ),
                         Container(
                           child: TextFormField(
+                            obscureText: true,
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               prefixIcon: Icon(Icons.lock_rounded),
@@ -127,6 +128,7 @@ class _TextField_practiceState extends State<TextField_practice> {
                         ),
                         Container(
                           child: TextFormField(
+                            obscureText: true,
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               prefixIcon: Icon(Icons.lock_rounded),

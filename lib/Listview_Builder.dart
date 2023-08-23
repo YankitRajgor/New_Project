@@ -47,7 +47,9 @@ class _Listview_BuilderState extends State<Listview_Builder> {
                                 'List ${entries[index]}',
                                 style: TextStyle(fontSize: 20),
                               ),
-                              SizedBox(width: 10,),
+                              SizedBox(
+                                width: 10,
+                              ),
                               Container(
                                   color: Colors.green,
                                   height: 70,

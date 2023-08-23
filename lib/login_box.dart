@@ -89,6 +89,7 @@ class _Login_BoxState extends State<Login_Box> {
                       ),
                       Container(
                         child: TextFormField(
+                          obscureText: true,
                           decoration: InputDecoration(
                             border: OutlineInputBorder(),
                             prefixIcon: Icon(Icons.lock_rounded),
