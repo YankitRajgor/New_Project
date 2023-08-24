@@ -13,9 +13,6 @@ class vertical_horizontal extends StatefulWidget {
 
 class _vertical_horizontalState extends State<vertical_horizontal> {
   var scaffoldKey = GlobalKey<ScaffoldState>();
-  final List<dynamic> image = [
-    // Image(image: )
-  ];
   bool status = false;
 
   @override
@@ -35,7 +32,10 @@ class _vertical_horizontalState extends State<vertical_horizontal> {
             onPressed: () {
               scaffoldKey.currentState?.openDrawer();
             },
-            icon: Icon(Icons.menu),
+            icon: Icon(
+              Icons.menu,
+              color: Colors.black,
+            ),
           ),
           actions: [
             Icon(
